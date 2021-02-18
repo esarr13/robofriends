@@ -1,6 +1,6 @@
 function SearchBox({ searchfield, searchChange }) {
     return (
-        <div>
+        <div style={{ paddingBottom: '10px' }}>
             <input
                 className="pa3 ba b--green bg-lightest-blue"
                 type="search"
