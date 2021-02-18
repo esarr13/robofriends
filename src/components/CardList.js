@@ -6,7 +6,7 @@ function CardList({ robots }) {
         return <div className="noRobot">No robot could be found.</div>;
 
     return (
-        <div>
+        <div className="cardContainer">
             {
                 robots.map((user, index) => {
                     return (
